@@ -17,7 +17,7 @@
         $count = count($args);
         if (1 == $count) set_catalog($args);
 
-        return ;//$args;
+        return $args;
     }
 ?>
 <?php
