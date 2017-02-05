@@ -5,7 +5,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Price parser</title>
   </head>
   <body>
 
@@ -26,7 +26,7 @@ else:
 endif;
 
    foreach ($match as $value){
-       print_r($value);
+       var_dump($value);
        echo "<br>";
    }
 
